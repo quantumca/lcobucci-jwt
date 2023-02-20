@@ -6,7 +6,7 @@ namespace Lcobucci\JWT\Signer\Hmac;
 use Lcobucci\JWT\Signer\Hmac;
 
 /** @deprecated Deprecated since v4.2 */
-final class UnsafeSha256 extends Hmac
+class UnsafeSha256 extends Hmac
 {
     public function algorithmId(): string
     {
