@@ -5,7 +5,7 @@ namespace Lcobucci\JWT\Signer\Hmac;
 
 use Lcobucci\JWT\Signer\Hmac;
 
-final class Sha512 extends Hmac
+final class Sha512 extends UnsafeSha512
 {
     public function algorithmId(): string
     {
